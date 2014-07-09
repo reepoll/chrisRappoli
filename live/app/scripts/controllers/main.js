@@ -15,6 +15,8 @@ $(document).ready(function() {
  * # MainCtrl
  * Controller of the reepollgithubioApp
  */
+
+/*
 angular.module('reepollgithubioApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
@@ -23,4 +25,6 @@ angular.module('reepollgithubioApp')
       'Karma'
     ];
   });
+
+*/
 
