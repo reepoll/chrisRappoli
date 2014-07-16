@@ -37,6 +37,10 @@ body {
   margin-left: 2px;
   margin-right: 2px;
   height: 50px;
+
+    #email-btn{
+      margin: auto, 0;
+    }
 }
 
 /* Custom page footer */
@@ -67,6 +71,7 @@ ul {
   padding: 2px;
   padding-left: 2px;
   padding-right: 2px;
+  padding-bottom: 15px;
 
   h1, .h1 {
     margin-top: 10px;
@@ -75,6 +80,10 @@ ul {
   .btn {
     font-size: 21px;
     padding: 14px 24px;
+  }
+
+  img {
+    margin-bottom: 15px;
   }
 }
 
