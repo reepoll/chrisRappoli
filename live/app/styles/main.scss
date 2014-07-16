@@ -3,6 +3,13 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
+//fonts
+@import url(http://fonts.googleapis.com/css?family=Cabin:700);
+
+//variables
+$title_font: 'Cabin', sans-serif;
+
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -29,14 +36,7 @@ body {
   border-bottom: 1px solid #e5e5e5;
   margin-left: 2px;
   margin-right: 2px;
-
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
-  }
+  height: 50px;
 }
 
 /* Custom page footer */
@@ -48,6 +48,14 @@ body {
 
 .container-narrow > hr {
   margin: 30px 0;
+}
+
+h1 {
+  font: 3em $title_font;
+}
+
+ul {
+  padding-left: 0;
 }
 
 /* Main marketing message and sign up button */
@@ -102,10 +110,68 @@ body {
   }
   /* Space out the masthead */
   .header {
-    /* margin-bottom: 2px; */
+    margin-bottom: 2px; 
+    height: 50px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
       
   }
 }
+
+/* Social icons */
+
+.socialicons {
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 6px;
+
+  /*float:left;
+  margin-top:18px;
+  */
+
+  li {
+  float:left;
+  display:inline;
+  margin:0;
+  padding:0;
+  }
+
+  li:last-child {
+  margin-right:0
+  }
+
+  a.icons {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-left: 10px;
+  background:url(../images/social-icons.png) no-repeat;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  }
+
+  a.icons.sib {
+  background-position: 0 0;
+  }
+  a.icons.sib:hover {
+  background-position: 0 -33px;
+  }
+  a.icons.twitter {
+  background-position: -33px 0;
+  }
+  a.icons.twitter:hover {
+  background-position: -33px -33px;
+  }
+  a.icons.linkedin {
+  background-position: -66px 0;
+  } 
+  a.icons.linkedin:hover {
+  background-position: -66px -33px;
+  }
+
+}
+

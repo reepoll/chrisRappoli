@@ -53,3 +53,53 @@ textarea {
 .content {
 	display: block;
 }
+
+/* Social icons */
+
+.socialicons {
+	float:right;
+	margin-top:18px;
+	padding: 0px;
+	}
+
+.socialicons li {
+	float:left;
+	display:inline;
+	margin:0;
+	padding:0;
+	margin-right:2px;
+}
+
+.social-icons li:last-child {
+margin-right:0
+}
+
+.socialicons a.icons {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	margin-right: 10px;
+	background:url(../img/social-icons.png) no-repeat;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.socialicons a.icons.sib {
+	background-position: 0 0;
+}
+.socialicons a.icons.sib:hover {
+	background-position: 0 -15px;
+}
+.socialicons a.icons.twitter {
+	background-position: -33px 0;
+}
+.socialicons a.icons.twitter:hover {
+	background-position: -33px -33px;
+}
+.socialicons a.icons.linkedin {
+	background-position: -66px 0;
+}
+.socialicons a.icons.linkedin:hover {
+	background-position: -66px -33px;
+}
