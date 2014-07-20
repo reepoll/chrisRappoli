@@ -60,6 +60,7 @@ textarea {
 	float:right;
 	margin-top:18px;
 	padding: 0px;
+	display: block;
 	}
 
 .socialicons li {

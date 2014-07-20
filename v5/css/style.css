@@ -7,11 +7,22 @@
 
 /* Social icons */
 
+.social-links {
+	display: block;
+	height: 50px;
+	width: 100%;
+	padding: 9px;
+	float: right;
+	margin-top: 1px;
+	margin-bottom: 80px;
+	bottom: 50px;
+	background-color: #428bca;
+
+}
+
 .socialicons {
-	float:right;
-	margin-top:18px;
-	padding: 0px;
-	margin: auto 0;
+	height: 33px;
+	widows: 200px;
 	}
 
 .socialicons li {
@@ -23,40 +34,24 @@
 }
 
 .social-icons li:last-child {
-margin-right:0
+	margin-right:0
 }
 
 .socialicons a.icons {
 	width: 32px;
 	height: 32px;
 	display: inline-block;
-	margin-right: 10px;
-	background:url("../img/social-icons.png") no-repeat;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
-	transition: all 0.2s ease;
-}
-.socialicons a.icons.sib {
-	background-position: 0 0;
-}
-.socialicons a.icons.sib:hover {
-	background-position: 0 -33px;
-}
-.socialicons a.icons.twitter {
-	background-position: -33px 0;
-}
-.socialicons a.icons.twitter:hover {
-	background-position: -33px -33px;
-}
-.socialicons a.icons.linkedin {
-	background-position: -66px 0;
-}
-.socialicons a.icons.linkedin:hover {
-	background-position: -66px -33px;
+	margin-right: 15px; 
+	border-radius: 3px;
 }
 
-/* Transparent Navbar */
+.socialicons a.icons:hover {
+	background-color: white;
+	
+}
+
+
+/*Navbar */
  .navbar.transparent {
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
@@ -70,11 +65,16 @@ margin-right:0
 .navbar h1 {
 	font-size: 5.5em;
 	color: #428bca;
+	text-align: center;
+}
+
+.navbar-header {
+	float: none;
 }
 
 /* Carousel */
 
 .carousel .item{
 	background-repeat: repeat;
-	background-image: url("../img/carbon_fibre.png");
+	background-image: url(../img/carbon_fibre.png);
 }
