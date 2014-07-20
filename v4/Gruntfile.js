@@ -1,4 +1,4 @@
-// Generated on 2014-07-16 using generator-angular 0.9.0-1
+// Generated on 2014-07-02 using generator-angular 0.9.0-1
 'use strict';
 
 // # Globbing
@@ -439,4 +439,6 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
+
+  grunt.loadNpmTasks('grunt-build-control');
 };

@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name v4App
+ * @name reepollgithubioApp
  * @description
- * # v4App
+ * # reepollgithubioApp
  *
  * Main module of the application.
  */
 angular
-  .module('v4App', [
+  .module('reepollgithubioApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -22,6 +22,10 @@ angular
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
+      })
+      .when('/portfolio', {
+        templateUrl: 'views/portfolio.html',
+        controller: 'AboutCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
